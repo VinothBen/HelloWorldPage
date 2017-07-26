@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+	border-bottom: solid;
+	border-bottom-color: #ff6600;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+color: #ff6600;
+}
+.active {
+	color: black;
+	background-color: #ff6600;
+}
+
+.heading {
+	text-shadow: 6px 6px #fff5e6;
+	text-align: center;
+	color: #ff9900;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.username {
+	color: #ff6600;
+	padding: 14px 25px;
+	float: right;
+}
+/* .......Drop down style.....*/
+.dropdown {
+	position: inherit;
+	display: block;
+}
+
+.dropdown-content {
+	
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 35px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: none;
+	z-index: 1;
+	
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.imagetiles {
+	max-width: 100%;
+	height: auto;
+}
+/* ...........For Image Auto slide....... */
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 90%;
+	position: relative;
+	margin: auto;
+	height: auto;
+}
+
+/* Caption text */
+.captiontext {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 10px;
+	width: 95%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 12px 29px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.2s ease;
+}
+
+.activedot {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.0s;
+	animation-name: fade;
+	animation-duration: 1.0s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4
+}
+to {
+	opacity: 1
+}
+
+}
+@keyframes fade {
+	from {opacity: .4
+}
+to {
+	opacity: 1
+}}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px
+	}
+}
+
+.listdetailsleft {
+	border-right: solid;
+	border-color: orange;
+}
+
+.listdetailsright {
+	border-left: solid;
+	border-color: orange;
+}
+
+.listhov:hover {
+	background-color: #ff6600;
+	text-decoration: underline;
+	color: white;
+	cursor: progress;
+}
+
+.scrolltext {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	height: auto;
+	color: green;
+	font-size: 20px;
+	border-bottom: 3px double #ff6600;
+	background-color: #eeeeee;
+}
