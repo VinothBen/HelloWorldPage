@@ -88,11 +88,11 @@
 			<artifactId>aopalliance</artifactId>
 			<version>1.0</version>
 		</dependency>
-		<!--  <dependency>
+		  <dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>persistence-api</artifactId>
 			<version>1.0</version>
-		</dependency> -->
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>HelloWorld</finalName>
